@@ -25,12 +25,67 @@
         <li><a href="experiencia.html">Experiencia</a></li>
       </ul>
     </nav>
+      <section>
+        <h2>Educación</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+
+
+          <thead>
+              <tr>
+                  <td>Año</td>
+                  <td>Institución</td>
+                  <td>Lugar</td>
+                  <td>¿Culminó?</td>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td>2003</td>
+                <td>Instituto Panamericano</td>
+                <td>Panamá</td>
+                <td>sí</td>
+              </tr>
+              <tr>
+                <td>2008</td>
+                <td>Universidad Tecnológica de Panamá</td>
+                <td>Panamá</td>
+                <td>sí</td>
+              </tr>
+            </tbody>
+        </table>
+        <br>
+    <form autocomplete="off" name="Agregar Estudios">
+      <h3><legend> <strong>Agregar Estudios</strong></legend></h3><br>
+        <label for="Año"><b>Año: </b></label>
+          <select name="Año">
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+          </select><br>
+        <label for="Institucion"><b>Institución: </b></label>
+          <input type="text" id="institucion" required><br>
+        <label for="Lugar"><b>Lugar:   </b></label>
+          <textarea name="name" rows="1.5" cols="15"></textarea>
+        <br>
+  		      <label for="culmino"><b>¿Culminó?: </b></label>
+  		      <input type="radio" name="culmino"> Sí
+  		      <input type="radio" name="culmino"> No
+  	  <br>
+        <input type="submit" value="Enviar">
+    </form>
 
 
 
 
 
-
+    </section>
     <footer>
       <svg width="1200" height="10">
          <line x1="0" y1="10" x2="1200" y2="10" stroke="#00ff00" stroke-width="5" />
